@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    margin: 0;
+}
+
+
+/* Box model / la caja de CSS */
+/* Se basan en 4 propiedades (desde dentro hacia afuera) 
+1- contenido / content. no se modifica
+2- relleno / padding
+3- Borde / border
+4- Margen / margin 
+
+*/
+
+.section-first {
+    background-color: blueviolet;
+    padding: 80px 400px;
+    border : 2px solid black
+
+}
+    /* 
+    Padding o relleno, siempre lleva una unidad de medida para ser definida
+    Si la afirmas sola, efecta a los cuatro lados de la caja, pero si usas padding-top, padding-right, padding-bottom, padding-left, podes manipularlo mejor
+    
+    padding: 80px 400px; (el primer numero es para top y bottom y el segundo numero l y r
+    
+    sino es con sentido horario, arrancando por TOP
+    padding: 80px 300px 130px 300px*/
+
+    /* border tiene su sintaxis en la misma linea y pide tamaño, estilo y color
+    border:2px solid black*/
+
+    /* margin, se puede modificar en cada una de sus direcciones como padding... */
+    
+    /* Margin separa... padding rellena pero las cajas siguen pegadas (?) */
